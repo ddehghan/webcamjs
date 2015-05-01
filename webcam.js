@@ -111,11 +111,7 @@ var Webcam = {
 			var self = this;
 			navigator.getUserMedia({
 				"audio": false,
-				"video": {
-					mandatory: {
-						minWidth: this.params.dest_width,
-						minHeight: this.params.dest_height
-					}
+				"video": true
 				}
 			}, 
 			function(stream) {
