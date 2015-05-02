@@ -112,7 +112,6 @@ var Webcam = {
 			navigator.getUserMedia({
 				"audio": false,
 				"video": true
-				}
 			}, 
 			function(stream) {
 				// got access, attach stream to video
